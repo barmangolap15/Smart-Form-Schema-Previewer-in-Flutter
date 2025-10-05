@@ -1,16 +1,72 @@
-# jsontoformviwer
+# Smart Form Schema Previewer 📝💡
 
-A new Flutter project.
+A dynamic form generator in Flutter that renders entire forms from a JSON schema — no hardcoding required! Ideal for survey apps, CMS-driven apps, and Typeform/Google Forms clones.
 
-## Getting Started
+🌟 Features
 
-This project is a starting point for a Flutter application.
+Paste or load JSON schema
 
-A few resources to get you started if this is your first Flutter project:
+Dynamically generate Flutter form UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Handle validation (required fields, data types)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Collect and display submitted form data
+
+Optional: Export schema or results to JSON or file
+
+🧠 Example JSON Schema
+{
+  "title": "User Registration Form",
+  "fields": [
+    { "label": "Full Name", "type": "text", "required": true },
+    { "label": "Email", "type": "email", "required": true },
+    { "label": "Age", "type": "number" },
+    { "label": "Gender", "type": "dropdown", "options": ["Male", "Female", "Other"] },
+    { "label": "Accept Terms", "type": "checkbox" }
+  ]
+}
+
+⚙️ Tech Stack
+
+Flutter & Dart – Cross-platform UI
+
+GetX / Provider (optional) – State management
+
+JSON Parsing – Dynamic form rendering
+
+Validation logic – Required fields & data types
+
+🛠️ How It Works
+
+Input your JSON schema in the app
+
+Parse the JSON into model classes
+
+Dynamically generate widgets based on the field type
+
+Apply validation rules
+
+Capture and show submitted form data
+
+🚀 Getting Started
+
+Clone the repo:
+
+git clone https://github.com/your-username/your-repo.git
+
+
+Navigate to project folder:
+
+cd your-repo
+
+
+Install dependencies:
+
+flutter pub get
+
+
+Run the app:
+
+flutter run
+
+📸 Preview
