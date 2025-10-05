@@ -2,19 +2,15 @@
 
 A dynamic form generator in Flutter that renders entire forms from a JSON schema — no hardcoding required! Ideal for survey apps, CMS-driven apps, and Typeform/Google Forms clones.
 
-🌟 Features
+### 🌟 Features
 
-Paste or load JSON schema
+- Paste or load JSON schema
+- Dynamically generate Flutter form UI
+- Handle validation (required fields, data types)
+- Collect and display submitted form data
 
-Dynamically generate Flutter form UI
-
-Handle validation (required fields, data types)
-
-Collect and display submitted form data
-
-Optional: Export schema or results to JSON or file
-
-🧠 Example JSON Schema
+### 🧠 Example JSON Schema
+```json
 {
   "title": "User Registration Form",
   "fields": [
@@ -25,48 +21,45 @@ Optional: Export schema or results to JSON or file
     { "label": "Accept Terms", "type": "checkbox" }
   ]
 }
-
-⚙️ Tech Stack
-
-Flutter & Dart – Cross-platform UI
-
-GetX / Provider (optional) – State management
-
-JSON Parsing – Dynamic form rendering
-
-Validation logic – Required fields & data types
-
-🛠️ How It Works
-
-Input your JSON schema in the app
-
-Parse the JSON into model classes
-
-Dynamically generate widgets based on the field type
-
-Apply validation rules
-
-Capture and show submitted form data
-
-🚀 Getting Started
-
-Clone the repo:
-
-git clone https://github.com/your-username/your-repo.git
+```
 
 
-Navigate to project folder:
+### ⚙️ Tech Stack
 
-cd your-repo
+- Flutter & Dart – Cross-platform UI
+- JSON Parsing – Dynamic form rendering
+- Validation logic – Required fields & data types
 
+### 🛠️ How It Works
 
-Install dependencies:
+- Input your JSON schema in the app
+- Parse the JSON into model classes
+- Dynamically generate widgets based on the field type
+- Apply validation rules
+- Capture and show submitted form data
 
+### 🚀 Getting Started
+
+1. Clone the repo:
+
+```json
+git clone https://github.com/barmangolap15/Smart-Form-Schema-Previewer-in-Flutter.git
+```
+
+2. Navigate to project folder:
+
+```json
+cd https://github.com/barmangolap15/Smart-Form-Schema-Previewer-in-Flutter.git
+```
+
+3. Install dependencies:
+
+```json
 flutter pub get
+```
 
+4. Run the app:
 
-Run the app:
-
+```json
 flutter run
-
-📸 Preview
+```
